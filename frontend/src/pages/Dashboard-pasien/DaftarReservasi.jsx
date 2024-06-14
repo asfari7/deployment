@@ -13,7 +13,7 @@ function DaftarReservasi() {
   const getReservations = async () => {
     try {
       const response = await axios.get(
-        "http://localhost:5000/api/v1/reservation",
+        "https://be-klinik-app.vercel.app/api/v1/reservation",
         {
           headers: {
             Authorization: `Bearer ${token}`,

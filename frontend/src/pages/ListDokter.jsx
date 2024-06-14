@@ -14,7 +14,7 @@ function ListDokter() {
   const getDoctors = async () => {
     try {
       const response = await axios.get(
-        "http://localhost:5000/api/v1/doctor/all"
+        "https://be-klinik-app.vercel.app/api/v1/doctor/all"
       );
       setData(response.data);
     } catch (error) {

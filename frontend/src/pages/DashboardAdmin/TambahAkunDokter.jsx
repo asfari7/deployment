@@ -115,7 +115,7 @@ const TambahAkunDokter = () => {
 
         axios
           .post(
-            "http://localhost:5000/api/v1/doctor/register",
+            "https://be-klinik-app.vercel.app/api/v1/doctor/register",
             JSON.stringify(formDataToSend),
             {
               headers: {

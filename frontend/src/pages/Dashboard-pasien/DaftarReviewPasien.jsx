@@ -26,7 +26,7 @@ function DaftarReviewPasien() {
     try {
       setLoading(true);
       const response = await axios.get(
-        "http://localhost:5000/api/v1/reservation/review",
+        "https://be-klinik-app.vercel.app/api/v1/reservation/review",
         {
           headers: {
             Authorization: `Bearer ${token}`,

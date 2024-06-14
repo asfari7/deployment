@@ -39,7 +39,7 @@ function FormReservasi(props) {
 
     try {
       const response = await axios.post(
-        "http://localhost:5000/api/v1/reservation/create",
+        "https://be-klinik-app.vercel.app/api/v1/reservation/create",
         formData,
         {
           headers: {
